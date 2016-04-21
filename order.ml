@@ -149,7 +149,7 @@ let cmd =
   let version = "0.0.0" in
   let sequence_line_length =
     let doc = "The length of the sequence section lines" in
-    Arg.(value & opt (some int) None & info ["line-length"; "L"] ~doc)
+    Arg.(value & opt (some int) (Some 60) & info ["line-length"; "L"] ~doc)
   in
   let input_file =
     let doc = "The input fasta file to be sorted." in
