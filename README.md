@@ -14,12 +14,12 @@ Now, the contigs will be in order from 1, 2, ..., 22, ..., X, Y, MT, ... and so 
 
 And that's all there is to it.
 
-## Installation
+## Building
 
 You'll need [`opam`](https://opam.ocaml.org/) (probably a `brew install opam` away from you, at most), and then you'll need to do the following:
 
 ```shell
-opam install biocaml core cmdliner
+make deps
 make
 ```
 
@@ -30,3 +30,7 @@ From here, you should be good to go.
 ## Contributing
 
 Contributions welcome; please see the Github issues page.
+
+## Testing
+
+You'll need to `opam testDeps`, then run the tests with `make all; make test`.

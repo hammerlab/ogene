@@ -1,6 +1,7 @@
 open Core_kernel.Std
 open Biocaml_unix
 
+
 (** Return the contig name from a Fasta.item description *)
 let contig item =
   let desc = item.Fasta.description in
@@ -18,21 +19,30 @@ let contig_exn item =
                 item.Fasta.description)
 
 
+(** Remove the 'chr' prefix from a string, if it's there.  *)
 let strip_chr c =
   if String.is_prefix c ~prefix:"chr"
   then String.drop_prefix c 3
   else c
 
+
+(** Format the description of an item for output into a FASTA.  *)
 let description_string item =
   ">" ^ item.Fasta.description
 
+
 (** Slice of string str from s to e (or to the end of the string, if e is beyond
     that. *)
-let safe_slice str s e =
-  try Some (String.slice str s e)
+let rec safe_slice str s e =
+  try
+    let sub = String.slice str s e in
+    if sub = "" then None else Some sub
   with _ ->
-  try Some (String.slice str s (String.length str))
+  try
+    let length = String.length str in
+    safe_slice str (Int.min s length) length
   with _ -> None
+
 
 (** Produce a stream of strings from Fasta.items. *)
 let stringify_fasta
@@ -141,33 +151,3 @@ let orderer sequence_line_length input_file output_file =
   let fasta = stringify_fasta ?sequence_line_length ([], contigs) in
   Stream.iter (fun s -> output_string oc s; output_char oc '\n') fasta;
   Out_channel.close oc
-
-
-let cmd =
-  let open Cmdliner in
-  let doc = "sort a fasta karyotypically" in
-  let version = "0.0.0" in
-  let sequence_line_length =
-    let doc = "The length of the sequence section lines" in
-    Arg.(value & opt (some int) (Some 60) & info ["line-length"; "L"] ~doc)
-  in
-  let input_file =
-    let doc = "The input fasta file to be sorted." in
-    Arg.(required & pos 0 (some file) None & info ~doc [])
-  in
-  let output_file =
-    let doc = "The output fasta file to be written." in
-    Arg.(required & pos 1 (some string) None & info ~doc [])
-  in
-  let man = [
-    `S "Description";
-    `P "$(tname) sorts a given fasta karyotypically, \
-        e.g. 1, 2, ..., 22, ... X, Y, MT, ...";
-    `P "To sort a fasta";
-    `P "$(tname) input.fasta output.fasta";
-  ] in
-  Term.(const orderer $ sequence_line_length $ input_file $ output_file),
-  Term.(info "orderer" ~version ~doc ~man)
-
-
-let () = match Cmdliner.Term.eval cmd with `Error _ -> exit 1 | _ -> exit 0

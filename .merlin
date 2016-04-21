@@ -1,3 +1,8 @@
+B _build/
+S .
+S test/
+
 PKG core
 PKG biocaml
 PKG cmdliner
+PKG alcotest

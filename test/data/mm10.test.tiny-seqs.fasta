@@ -1,0 +1,132 @@
+>1 dna_sm:chromosome chromosome:GRCm38:1:1:195471971:1 REF
+ttctgtttctattttgtggttactttgaggagagttggaattaggtcttctttgaaggtc
+>10 dna_sm:chromosome chromosome:GRCm38:10:1:130694993:1 REF
+NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNgaattctcacctgagaaata
+>11 dna_sm:chromosome chromosome:GRCm38:11:1:122082543:1 REF
+NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNaggtcctacttgtgtatttc
+>12 dna_sm:chromosome chromosome:GRCm38:12:1:120129022:1 REF
+GATCAGGAATGCCCCATCTACAAAGAGGTTGGTACCAACACCTCCCATTTGGTCTGCCAT
+>13 dna_sm:chromosome chromosome:GRCm38:13:1:120421639:1 REF
+atagtccatcgtttcgtctgagctccaaactttgtctctgtaagttcttttcatgggtat
+>14 dna_sm:chromosome chromosome:GRCm38:14:1:124902244:1 REF
+GAtcaacacccttccctcaacaagtctcctgtatccctcccaacttcatgttgtttaata
+>15 dna_sm:chromosome chromosome:GRCm38:15:1:104043685:1 REF
+NNNNNNNNNNNNNNNNNNNNgatcatagacttgcactgggtatcctaattgattgtttgt
+>16 dna_sm:chromosome chromosome:GRCm38:16:1:98207768:1 REF
+gatcaatggttagaagtgaagaccaacaaatgaacccacacaccaatgatcacttgatct
+>17 dna_sm:chromosome chromosome:GRCm38:17:1:94987271:1 REF
+GTGTggaatggaggagagggggaaggaatcagaaggggagaggaaggggagggaagaaag
+>18 dna_sm:chromosome chromosome:GRCm38:18:1:90702639:1 REF
+GAATTCAGAGATTCAAGGCCTCCGCCTTCTAAGTGTTGGCTCCAAGAATCTGGTTTTGGG
+>19 dna_sm:chromosome chromosome:GRCm38:19:1:61431566:1 REF
+GATCatactcctcatgctggacattctggttcctagtatatctggagagttaagatgggg
+>2 dna_sm:chromosome chromosome:GRCm38:2:1:182113224:1 REF
+NNNNNNNNNNNNNNNNNNNNACGGGTTCTACaggaaagaaagaaagaaagaaagaaagaa
+>3 dna_sm:chromosome chromosome:GRCm38:3:1:160039680:1 REF
+GACATCACAGTGGGAGCACTGGGACCCCAAAGTAAAGAACTATGACAAAACAGTGAACAC
+>4 dna_sm:chromosome chromosome:GRCm38:4:1:156508116:1 REF
+NNNNNNNNNNNNNNNNNNNNTTGGAGCATATGCTACAacattggagcactgtgatagcac
+>5 dna_sm:chromosome chromosome:GRCm38:5:1:151834684:1 REF
+GATCATTCCATTAAATGAGTCAATTATATTAAGCTTACTTTTTCAAACTTTAGTTTTAGC
+>6 dna_sm:chromosome chromosome:GRCm38:6:1:149736546:1 REF
+NNNNNNNNNNNNNNNNNNNNGATCAGTCAGGACTCTACAGGGGCCAGAGGTCTTGTCCTT
+>7 dna_sm:chromosome chromosome:GRCm38:7:1:145441459:1 REF
+gatccacttattggcacttgccatgatcctgttcagatacttaatatggggaaaagggag
+>8 dna_sm:chromosome chromosome:GRCm38:8:1:129401213:1 REF
+gatcagagacccaaattaatggtacaaatgaatggtattgacatagaaggtttggtggat
+>9 dna_sm:chromosome chromosome:GRCm38:9:1:124595110:1 REF
+GAtcctacagtgtgcatttctcatttttcacgtttttcagtgatttcgtcatttttcaag
+>MT dna_sm:chromosome chromosome:GRCm38:MT:1:16299:1 REF
+GTTAATGTAGCTTAATAACAAAGCAAAGCACTGAAAATGCTTAGATGGATAATTGTATCC
+>X dna_sm:chromosome chromosome:GRCm38:X:1:171031299:1 REF
+NNNNNNNNNNNNNNNNNNNNgccaatgtttggagtgggctggccacctgagggtgctttt
+>Y dna_sm:chromosome chromosome:GRCm38:Y:1:91744698:1 REF
+NNNNNNNNNNNNNNNNNNNNGATCTTTTTATTATAATCTCAAACACCAATCAGACACTAC
+>JH584299.1 dna_sm:scaffold scaffold:GRCm38:JH584299.1:1:953012:1 REF
+GAATTCTcagggcctgtgatggtctatactgcatggcatatcagtgtagagaaaataaat
+>GL456233.1 dna_sm:scaffold scaffold:GRCm38:GL456233.1:1:336933:1 REF
+agcgggtgtggtggcagtcccaaaggcgccagggactgtagctaagtcgtatgatttgca
+>JH584301.1 dna_sm:scaffold scaffold:GRCm38:JH584301.1:1:259875:1 REF
+GATCTCAAAATCCTTGCAATATTTTGAGTAGGGTGGGTATATCACTGACACACTGAGGAA
+>GL456211.1 dna_sm:scaffold scaffold:GRCm38:GL456211.1:1:241735:1 REF
+GAATTCTCTTCTGACTCTCTTAGAAGATTAGGTCCCTCTGCTGAGGTTTCGAAGCACTTG
+>GL456350.1 dna_sm:scaffold scaffold:GRCm38:GL456350.1:1:227966:1 REF
+GAGGCTGGATCACTTTTTTATTCAGTTAGGTATAAATCATAGGTGCAAGGACAAGGGGAG
+>JH584293.1 dna_sm:scaffold scaffold:GRCm38:JH584293.1:1:207968:1 REF
+GAATTCTTGGCCTTCGGGGCTTTCTGGGTGTGAGTCCGGGTTTCCCTTTTAAGTATGAAT
+>GL456221.1 dna_sm:scaffold scaffold:GRCm38:GL456221.1:1:206961:1 REF
+GAATTCTCTTCTGACTCTCTTAGAAGATTAGGTCCCTCTGCTGAGGTTTCGAAGCACTTG
+>JH584297.1 dna_sm:scaffold scaffold:GRCm38:JH584297.1:1:205776:1 REF
+Gaattctactgcattgatctacctgtctcttgctgtatcacaattgctctgtagtacaga
+>JH584296.1 dna_sm:scaffold scaffold:GRCm38:JH584296.1:1:199368:1 REF
+GAATTCTCCTCCTGCTGGCCAGGGTCTTCTTCAAGTGCAAACAAATGCTTGGTGAATCCG
+>GL456354.1 dna_sm:scaffold scaffold:GRCm38:GL456354.1:1:195993:1 REF
+gaattcactttgtagaccaggctggccttgaactcagaaatccgcctgcctctgcctccc
+>JH584294.1 dna_sm:scaffold scaffold:GRCm38:JH584294.1:1:191905:1 REF
+GATCAGAGGGTATGACCCTTTGTGAGGGtttttcatccatatggcttcccgggatggaat
+>JH584298.1 dna_sm:scaffold scaffold:GRCm38:JH584298.1:1:184189:1 REF
+GAATTCCCAGCAGAAATTCAATAGCATTCTATCTACTTATCTAATACCTAATATAAAAAT
+>JH584300.1 dna_sm:scaffold scaffold:GRCm38:JH584300.1:1:182347:1 REF
+GATCCTCCTGAGGTGATAGGGAAGATCTAATAGTCTCCTATAAAGTTTGGGGCAGCTCAA
+>GL456219.1 dna_sm:scaffold scaffold:GRCm38:GL456219.1:1:175968:1 REF
+gatcaccttgcttcaaggctgagggaggctacaATGTATTATTTGTTGTGATTGTGGGTG
+>GL456210.1 dna_sm:scaffold scaffold:GRCm38:GL456210.1:1:169725:1 REF
+GATCATCGGTTACACAGCTAAGTTTGACCGGCGCAGAAATGCCATATAAATGAAGACATA
+>JH584303.1 dna_sm:scaffold scaffold:GRCm38:JH584303.1:1:158099:1 REF
+GATCATTGAGGACCTAGACTAACTAGATCTGATGTAATCCATGACAAATCGATTTCCTTG
+>JH584302.1 dna_sm:scaffold scaffold:GRCm38:JH584302.1:1:155838:1 REF
+GAATTCAAATCTACTGGATTTTATCACCAAATCCTGAGATTAAACCCCTTTCTAAGCAGA
+>GL456212.1 dna_sm:scaffold scaffold:GRCm38:GL456212.1:1:153618:1 REF
+GAATTCTTTAAATAAAAAAGACTGACAGCTCTATGTGACTATAAAAGACTTTGTTTTCTT
+>JH584304.1 dna_sm:scaffold scaffold:GRCm38:JH584304.1:1:114452:1 REF
+GATCCATTCTGTTCTGCTCTGCTGGTTTAAGatgtcagatgctggcctagtcggccatca
+>GL456379.1 dna_sm:scaffold scaffold:GRCm38:GL456379.1:1:72385:1 REF
+caaaggaagtcaggactggaactcaaagcaggtcagaaagcaggagctggtgcagaagcc
+>GL456216.1 dna_sm:scaffold scaffold:GRCm38:GL456216.1:1:66673:1 REF
+cagacacaccagaagagggcatcagatcttgttacggaaggttgtgagccaccatgtggt
+>GL456393.1 dna_sm:scaffold scaffold:GRCm38:GL456393.1:1:55711:1 REF
+tatagtgtgtgtttgtaattttccatgattttaagttttctcgccatactccaggtccta
+>GL456366.1 dna_sm:scaffold scaffold:GRCm38:GL456366.1:1:47073:1 REF
+GTGCTCAGCAACCCTTAAAATGAAATAATTCTTGATCATTGGTGTCTGGAAGGTTCTAGA
+>GL456367.1 dna_sm:scaffold scaffold:GRCm38:GL456367.1:1:42057:1 REF
+CTTgtttttagtgttttggagtttgttttttttttttttttaattttaaggttttatttt
+>GL456239.1 dna_sm:scaffold scaffold:GRCm38:GL456239.1:1:40056:1 REF
+GTTAATGGGTCTGTTATTTAAAGCCAGCTGATACTCTAGCCAGAGCACAAACACCTGCAG
+>GL456213.1 dna_sm:scaffold scaffold:GRCm38:GL456213.1:1:39340:1 REF
+GCTTACTTACTCAAGGCTATGGCTGGGGAGAGCATAGCAGAGGTGGAATTCAAACCAGGC
+>GL456383.1 dna_sm:scaffold scaffold:GRCm38:GL456383.1:1:38659:1 REF
+ttttgaacgtttttcactgtttcacacgatattccaggtcctacagtgtgcatttctcat
+>GL456385.1 dna_sm:scaffold scaffold:GRCm38:GL456385.1:1:35240:1 REF
+ATCTTATGATAAAATTAAAGGTGATTTTTCTATTAGAAAAATTGAATTTTATGGAAGGGT
+>GL456360.1 dna_sm:scaffold scaffold:GRCm38:GL456360.1:1:31704:1 REF
+GGAAGTTAGATACCTGCAGCTGGTCAGTTCCACATATCCTCTATGGAAAGATCAGAGGAG
+>GL456378.1 dna_sm:scaffold scaffold:GRCm38:GL456378.1:1:31602:1 REF
+AGGAGTTTATTATGAGAGTTTTCATGCTGTGAACACACAGACAGGAGCAGCAGAATGCCT
+>GL456389.1 dna_sm:scaffold scaffold:GRCm38:GL456389.1:1:28772:1 REF
+ccatgtttttcagtgtttctctcctattcctggtcctacagtgtgtatttctcattttcc
+>GL456372.1 dna_sm:scaffold scaffold:GRCm38:GL456372.1:1:28664:1 REF
+TAATCACCTTCCCTAACAACTGATGGCATCTCTGGGCCTCTCTTCAACATTTCTTCCATT
+>GL456370.1 dna_sm:scaffold scaffold:GRCm38:GL456370.1:1:26764:1 REF
+ATTCTGAtgattttctgaggcagggggatgactgtgagtgattttctgaggcagggggat
+>GL456381.1 dna_sm:scaffold scaffold:GRCm38:GL456381.1:1:25871:1 REF
+CACTGGCTACTGTGACAACAAGTTTAAATTGTGACACCATGGTGGAGAACTGTGACACCA
+>GL456387.1 dna_sm:scaffold scaffold:GRCm38:GL456387.1:1:24685:1 REF
+CCAgaaaggagcctgatgtggctgtctttaagaggccgagccagagccctacaaataaag
+>GL456390.1 dna_sm:scaffold scaffold:GRCm38:GL456390.1:1:24668:1 REF
+ctgaaaaacgtgaaatatgagaaatatacactggaggacctagattgtggcaagaaaact
+>GL456394.1 dna_sm:scaffold scaffold:GRCm38:GL456394.1:1:24323:1 REF
+GATTTTACAGGAAATCGTGGTGACAGAGTTTTATTTTTCAAAAACCtttttaatagatat
+>GL456392.1 dna_sm:scaffold scaffold:GRCm38:GL456392.1:1:23629:1 REF
+gagacacaaacactgtatgacctggatatggtgagaatcacttgaaaaacgtgacaaatt
+>GL456382.1 dna_sm:scaffold scaffold:GRCm38:GL456382.1:1:23158:1 REF
+CATAAAACATTTTGTGCAATCTCTTCCAGCACCATTGAATTGCAACTGTAATTGCCTACA
+>GL456359.1 dna_sm:scaffold scaffold:GRCm38:GL456359.1:1:22974:1 REF
+ctgctgcttgctatggctggtaactagtccccttattttattaccagctttctcttttct
+>GL456396.1 dna_sm:scaffold scaffold:GRCm38:GL456396.1:1:21240:1 REF
+tccttggggggcatacgcccagataggggcagctgtgttcaaggcttggaaggcacttac
+>GL456368.1 dna_sm:scaffold scaffold:GRCm38:GL456368.1:1:20208:1 REF
+gaaggaaggaaggaaggaaggaaggaaggaaggaaggaaggaaggaaggaaggaaggaag
+>JH584292.1 dna_sm:scaffold scaffold:GRCm38:JH584292.1:1:14945:1 REF
+gtgtgtgtgtgtgtgtgtgtgtgATTAAATGCAAAAATATAATAGtacacttgattacac
+>JH584295.1 dna_sm:scaffold scaffold:GRCm38:JH584295.1:1:1976:1 REF
+GGCTGAGCGGTGACATCATGGGCGGCGGGGTCCCAGACAGGAAGTGGGCGTGGCCTCCCA
