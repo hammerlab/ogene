@@ -38,7 +38,7 @@ let safe_slice str s e =
 let stringify_fasta
     ?(sequence_line_length=60) (header, items) : string Stream.t =
   let location : [`In_header of int |
-               `In_items of int * [`Desc | `Sequence of int]] ref =
+                  `In_items of int * [`Desc | `Sequence of int]] ref =
     ref (`In_header 0) in
   let rec next idx =
     match !location with
