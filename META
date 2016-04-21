@@ -1,0 +1,6 @@
+description="OCaml genomics file manipulation toolkit"
+requires="cmdliner biocaml core alcotest"
+version="0.0.0"
+directory="."
+archive(byte)="ogene.cma"
+archive(native)="ogene.cmxa"

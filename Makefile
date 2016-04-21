@@ -2,7 +2,7 @@ BUILD_DIR=_build
 PACKAGES=biocaml.unix core cmdliner
 TEST_PACKAGES=$(PACKAGES) alcotest
 
-.PHONY: all clean test deps testDeps
+.PHONY: all clean test deps testDeps install
 
 all:
 	ocamlbuild -use-ocamlfind -tag thread \
@@ -21,6 +21,20 @@ clean:
 	ocamlbuild -build-dir $(BUILD_DIR) -clean
 	-rm ./fasta-orderer 2>/dev/null
 	-rm -rf _tests/ 2>/dev/null
+
+install:
+	ocamlfind install ogene META\
+	    _build/ogene.a\
+	    _build/ogene.o\
+	    _build/ogene.cma\
+	    _build/ogene.cmi\
+	    _build/ogene.cmo\
+	    _build/ogene.cmx\
+	    _build/ogene.cmxa\
+            _build/ogene.cmxs
+
+uninstall:
+	ocamlfind remove ogene
 
 test:
 	ocamlbuild -use-ocamlfind -tag thread -I test/ \
