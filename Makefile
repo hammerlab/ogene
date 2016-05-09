@@ -2,7 +2,7 @@ BUILD_DIR=_build
 PACKAGES=biocaml.unix core cmdliner
 TEST_PACKAGES=$(PACKAGES) alcotest
 
-.PHONY: all clean test deps testDeps install
+.PHONY: all clean test deps testDeps install uninstall
 
 all:
 	ocamlbuild -use-ocamlfind -tag thread -I src/ \
