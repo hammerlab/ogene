@@ -5,16 +5,15 @@ maintainer: "Isaac Hodes <isaachodes@gmail.com>"
 authors: ["Isaac Hodes <isaachodes@gmail.com>"]
 homepage: "https://github.com/hammerlab/ogene"
 bug-reports: "https://github.com/hammerlab/ogene/issues"
-dev-repo: "git@github.com/hammerlab/ogene.git"
+dev-repo: "https://github.com/hammerlab/ogene.git"
 license: "Apache-2.0"
 build: [make]
 install: [make "install"]
 remove: [make "uninstall"]
 depends: [
   "ocamlfind" {build}
-  "ocamlfind" {build}
   "cmdliner"
   "core"
   "alcotest"
-  "biocaml.unix"
+  "biocaml"
 ]
